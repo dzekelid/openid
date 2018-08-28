@@ -3,8 +3,8 @@ swagger: "2.0"
 x-collection-name: Azure API Management
 x-complete: 0
 info:
-  title: Azure API Management API OpenIdConnectProviders ListByService
-  description: Lists all OpenID Connect Providers.
+  title: Azure API Management API OpenIdConnectProviders Update
+  description: Updates the specific OpenID Connect Provider.
   version: 1.0.0
 host: management.azure.com
 basePath: /

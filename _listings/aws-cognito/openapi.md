@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Cognito
 x-complete: 1
@@ -64,4 +63,3 @@ paths:
           description: OK
       tags:
       - Open ID Token for Developer Identities
----

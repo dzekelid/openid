@@ -13,8 +13,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/825-janrai
 x-kinRank: "8"
 x-alexaRank: "327401"
 tags: OpenID
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/janrain/apis.md
 specificationVersion: "0.14"
 apis: []

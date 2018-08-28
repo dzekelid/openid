@@ -12,11 +12,305 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: OpenID
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Identity and Access Management API - Add Client I D To Open I D Connect
+    Provider
+  x-api-slug: actionaddclientidtoopenidconnectprovider-get
+  description: |-
+    Adds a new client ID (also known as audience) to the list of client IDs already
+          registered for the specified IAM OpenID Connect (OIDC) provider resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionaddclientidtoopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Create Open I D Connect Provider
+  x-api-slug: actioncreateopenidconnectprovider-get
+  description: Creates an IAM entity to describe an identity provider (IdP) that supports.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actioncreateopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Open I D Connect Provider
+  x-api-slug: actiondeleteopenidconnectprovider-get
+  description: Deletes an OpenID Connect identity provider (IdP) resource object in
+    IAM.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actiondeleteopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Get Open I D Connect Provider
+  x-api-slug: actiongetopenidconnectprovider-get
+  description: |-
+    Returns information about the specified OpenID Connect (OIDC) provider resource object
+          in IAM.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actiongetopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - List Open I D Connect Providers
+  x-api-slug: actionlistopenidconnectproviders-get
+  description: |-
+    Lists information about the IAM OpenID Connect (OIDC) provider resource objects
+          defined in the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionlistopenidconnectproviders-get-openapi.md
+- name: AWS Identity and Access Management API - Remove Client I D From Open I D Connect
+    Provider
+  x-api-slug: actionremoveclientidfromopenidconnectprovider-get
+  description: |-
+    Removes the specified client ID (also known as audience) from the list of client IDs
+          registered for the specified IAM OpenID Connect (OIDC) provider resource object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionremoveclientidfromopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Update Open I D Connect Provider
+    Thumbprint
+  x-api-slug: actionupdateopenidconnectproviderthumbprint-get
+  description: |-
+    Replaces the existing list of server certificate thumbprints associated with an OpenID
+          Connect (OIDC) provider resource object with a new list of thumbprints.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionupdateopenidconnectproviderthumbprint-get-openapi.md
+- name: AWS Identity and Access Management API - Add Client I D To Open I D Connect
+    Provider
+  x-api-slug: actionaddclientidtoopenidconnectprovider-get
+  description: |-
+    Adds a new client ID (also known as audience) to the list of client IDs already
+          registered for the specified IAM OpenID Connect (OIDC) provider resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionaddclientidtoopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Create Open I D Connect Provider
+  x-api-slug: actioncreateopenidconnectprovider-get
+  description: Creates an IAM entity to describe an identity provider (IdP) that supports.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actioncreateopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Open I D Connect Provider
+  x-api-slug: actiondeleteopenidconnectprovider-get
+  description: Deletes an OpenID Connect identity provider (IdP) resource object in
+    IAM.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actiondeleteopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Get Open I D Connect Provider
+  x-api-slug: actiongetopenidconnectprovider-get
+  description: |-
+    Returns information about the specified OpenID Connect (OIDC) provider resource object
+          in IAM.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actiongetopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - List Open I D Connect Providers
+  x-api-slug: actionlistopenidconnectproviders-get
+  description: |-
+    Lists information about the IAM OpenID Connect (OIDC) provider resource objects
+          defined in the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionlistopenidconnectproviders-get-openapi.md
+- name: AWS Identity and Access Management API - Remove Client I D From Open I D Connect
+    Provider
+  x-api-slug: actionremoveclientidfromopenidconnectprovider-get
+  description: |-
+    Removes the specified client ID (also known as audience) from the list of client IDs
+          registered for the specified IAM OpenID Connect (OIDC) provider resource object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionremoveclientidfromopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Update Open I D Connect Provider
+    Thumbprint
+  x-api-slug: actionupdateopenidconnectproviderthumbprint-get
+  description: |-
+    Replaces the existing list of server certificate thumbprints associated with an OpenID
+          Connect (OIDC) provider resource object with a new list of thumbprints.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionupdateopenidconnectproviderthumbprint-get-openapi.md
+- name: AWS Identity and Access Management API - Add Client I D To Open I D Connect
+    Provider
+  x-api-slug: actionaddclientidtoopenidconnectprovider-get
+  description: |-
+    Adds a new client ID (also known as audience) to the list of client IDs already
+          registered for the specified IAM OpenID Connect (OIDC) provider resource.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionaddclientidtoopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Create Open I D Connect Provider
+  x-api-slug: actioncreateopenidconnectprovider-get
+  description: Creates an IAM entity to describe an identity provider (IdP) that supports.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actioncreateopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Delete Open I D Connect Provider
+  x-api-slug: actiondeleteopenidconnectprovider-get
+  description: Deletes an OpenID Connect identity provider (IdP) resource object in
+    IAM.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actiondeleteopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Get Open I D Connect Provider
+  x-api-slug: actiongetopenidconnectprovider-get
+  description: |-
+    Returns information about the specified OpenID Connect (OIDC) provider resource object
+          in IAM.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actiongetopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - List Open I D Connect Providers
+  x-api-slug: actionlistopenidconnectproviders-get
+  description: |-
+    Lists information about the IAM OpenID Connect (OIDC) provider resource objects
+          defined in the AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionlistopenidconnectproviders-get-openapi.md
+- name: AWS Identity and Access Management API - Remove Client I D From Open I D Connect
+    Provider
+  x-api-slug: actionremoveclientidfromopenidconnectprovider-get
+  description: |-
+    Removes the specified client ID (also known as audience) from the list of client IDs
+          registered for the specified IAM OpenID Connect (OIDC) provider resource object.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionremoveclientidfromopenidconnectprovider-get-openapi.md
+- name: AWS Identity and Access Management API - Update Open I D Connect Provider
+    Thumbprint
+  x-api-slug: actionupdateopenidconnectproviderthumbprint-get
+  description: |-
+    Replaces the existing list of server certificate thumbprints associated with an OpenID
+          Connect (OIDC) provider resource object with a new list of thumbprints.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSIAM.png
+  humanURL: https://aws.amazon.com/iam/
+  baseURL: :///
+  tags: Amazon Web Services, Authentication, Stack Network, Security, API Service
+    Provider, API Service Provider, API Provider, Identities, Profiles, Relative Data,
+    Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/openid/master/_listings/aws-identity-and-access-management/actionupdateopenidconnectproviderthumbprint-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.glacier.api.gallery.streamdata.io
